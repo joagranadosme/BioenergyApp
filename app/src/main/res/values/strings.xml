@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bioenergy</string>
+
+    <string name="login">Iniciar Sesión</string>
+    <string name="username">Documento</string>
+    <string name="password">Contraseña</string>
+
+</resources>

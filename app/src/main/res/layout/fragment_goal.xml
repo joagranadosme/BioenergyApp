@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.procesosyoperaciones.bioenergy.GoalFragment">
+
+    <ListView
+        android:id="@+id/goal_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:drawSelectorOnTop="true"
+        android:longClickable="false"
+        tools:listitem="@layout/list_item_goal" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="6dp"
+        android:background="@drawable/button_shape"
+        android:gravity="right"
+        android:padding="5dp"
+        android:text="0%"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="70dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="addClick"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="sendClick"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</FrameLayout>

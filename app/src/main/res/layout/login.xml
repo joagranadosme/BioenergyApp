@@ -56,13 +56,14 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/ingresarButton"
+        android:id="@+id/loginButton"
+        style="@android:style/ButtonBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:layout_weight="1"
         android:background="@drawable/button_shape"
-        android:onClick="ingresarClick"
+        android:onClick="loginClick"
         android:text="Ingresar"
         android:textColor="@android:color/background_light"
         android:textColorLink="@android:color/background_light"

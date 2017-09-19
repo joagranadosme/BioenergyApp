@@ -4,5 +4,104 @@
     <string name="login">Iniciar Sesión</string>
     <string name="username">Documento</string>
     <string name="password">Contraseña</string>
+    <string name="evaluate">Ser\nEvaluado</string>
+    <string name="evaluator">Ser\nEvaluador</string>
+
+    <string name="restrictions">
+        \n\n<b>1)</b> La Evaluación de desempeño, debe ser realizada de forma individual, por todos los trabajadores contratados directamente por Bioenergy S.A.S y Bioenergy Zona Franca S.A.S
+        \n\n<b>2)</b> Si un trabajador es vinculado 3 meses antes de finalizar el periodo evaluado, no será incluido en la evaluación de dicho periodo
+        \n\n<b>3)</b> Las personas que sean contratadas para trabajos específicos con duración inferior o igual a 6 meses no serán incluidas en el proceso de evaluación de desempeño
+        \n\n<b>4)</b> La Evaluación de Desempeño del año 2017, tendrá los siguientes componentes:         
+        \n\n\t<b>a)</b> Objetivo Corporativo de Bioenergy (TBG CORPORATIVO):  Corresponderá al resultado de los objetivos asignados a Bioenergy por la Junta directiva.
+        \n\n\t<b>b)</b> Objetivos de área: Hacen referencia a los objetivos direccionados por el Gerente, director ó jefe de las diferentes áreas de la empresa, a partir de lo definido en el Tablero Balanceado de Gestión.
+        \n\n\t<b>c)</b> Objetivos Individuales: Corresponderá a las acciones realizadas por el trabajador en los frentes de gestión sobre los procesos o subprocesos en los cuales participa.
+        \n\n\t<b>d)</b> Gestión plan Individual de desarrollo (Evaluación de Competencias): Corresponderá a las acciones que el trabajador deberá realizar para evaluar y realizar PDI (plan de desarrollo individual) a las competencias que le correspondan a su cargo.         
+        \n\n<b>5)</b> El proceso de Gestión de Plan Individual de Desarrollo (evaluación de Competencias) será direccionado y monitoreado a todos los trabajadores por parte del área de gestión humana.
+        \n\n<b>6)</b> Para definir los objetivos individuales, a cada trabajador se le entregará los objetivos del área a la cual pertenece con el fin de que los revise y pueda definir su propuesta de contribución en función de dichos objetivos informados.
+        \n\n<b>7.1)</b> Los jefes de área podrán identificar y asignar los objetivos que se alineen al Tablero Balanceado de Gestión, se recomienda no asignar más de 5 objetivos
+        \n\n<b>7.2)</b> El número de objetivos individuales a fijar a un trabajador será de mínimo 2 y máximo 3 objetivos, los cuales deberán tener un peso porcentual que sume el 100% entre ellos.
+        \n\n<b>8)</b> De acuerdo con sus responsabilidades e interacción, dos ó más trabajadores podrán compartir el mismo objetivo
+        \n\n<b>9)</b> La definición de los objetivos individuales, así como su correspondiente evaluación al corte de Diciembre 31 de 2017, Debe ser validada por el trabajador con su jefe inmediato
+        \n\n<b>10)</b> Para el año 2017, los objetivos individuales no tendrán modificación, una vez hayan sido definidos y aprobados entre el trabajador y su jefe inmediato, excepto si por razones de fuerza mayor se haga necesario revisarlos para lo cual deberán ser remitidos al correo:
+        \n\n\t alexander.forero@procesosyoperaciones.com
+        \n\n<b>11)</b> En caso de que un trabajador haya sido trasladado de area ó ascendido, dentro de la misma área,  los objetivos  que se evaluarán, corresponderán al cargo en donde el trabajador haya estado la mayor parte del tiempo.
+    </string>
+
+    <string name="general_instructions_text">
+        <b>Ser evaluado.</b>
+        \n\nLa presente herramienta, le permitirá desarrollar cada una de las fases y componentes del Sistema de Gestión de Desempeño que nuestra app coloca a su disposición.
+        \n\nEl proceso se desarrollará de una manera secuencial, con el fin de que usted vaya revisando la evolución de su gestión a lo largo del tiempo que dure el ciclo de gestión de desempeño.
+        \n\nTenga en cuenta las siguientes recomendaciones:
+        \n\n\t<b>1)</b> Es muy importante que diligencie toda la información requerida a lo largo del proceso, para que la verifique con su jefe inmediato.
+        \n\n\t<b>2)</b> Cada Fase tiene una fecha inicio y una fecha fin, las cuales serán informadas por el area administradora del proceso.
+        \n\n\t<b>3)</b> No olvide tener la información de sustento para el diligenciamiento de los objetivos, metas, indicadores y pesos porcentuales de importancia sobre cada objetivo, que  usted ha definido junto con su jefe inmediato. En caso de requerirse el área administradora del Proceso, le solicitará dichos soportes, en caso que surjan inquietudes sobre la información consignada.
+        \n\n\t<b>4)</b> El formato contiene la formulación que les permitirá a usted y su jefe inmediato, obtener la información referente a la calificación obtenida en cada uno de los objetivos definidos, asi como la calificación ponderada final de Gestión de Desempeño.
+        \n\n\t<b>5)</b> En caso de requerir ayuda o soporte, por favor contáctese con el teléfono: (+57) 314 405 8374.
+        \n\n\t<b>6)</b> A continuación encontrará los siguientes pasos que deberá desarrollar a lo largo del ciclo de Gestión de Desempeño de manera secuencial, por favor haga click en el botón que requiera.
+        \n\n\n
+    </string>
+
+    <string name="instruction_0">
+        <b>Apreciado Colaborador.</b>
+        \n\nA continuación encontrará una lista desplegable de los funcionarios de la empresa que pueden evaluar a otros a su cargo dentro del proceso del Sistema de Gestión de Desempeño.
+        \n\nPor favor tenga en cuenta que la persona que usted seleccione, esté permanentemente direccionando su trabajo, retroalimentándolo y apoyándolo en la solución de problemas u obstaculos que se le puedan presentar dentro del desarrollo diario de sus actividades que lo estan conduciendo al logro de los retos que usted ha definido y validará con la persona que seleccionará a continuación.
+        \n\n\n\n\n
+    </string>
+
+    <string name="instruction_1">
+        <b>Apreciado Colaborador.</b>
+        \n\nBienvenido(a) a la Fase 2 del Sistema de Gestión de Desempeño denominada FASE DE FIJACIÓN DE OBJETIVOS.
+        \n\nPara desarrollar esta Fase, además de haber asistido a los talleres de la metodología del Sistema de gestión de Desempeño, usted deberá tener la siguiente información disponible:
+        \n\n\t<b>1)</b> La Descripción de su cargo.
+        \n\n\t<b>2)</b> Los Objetivos de su área.
+        \n\n\t<b>3)</b> Los Objetivos de su Jefe inmediato.
+        \n\n\t<b>4)</b> Tener claro como es el modelo de competencias y como su cargo se involucra dentro de este modelo.
+        \n\n\t<b>5)</b> Conocer el material con el cual usted puede identificar los planes de mejoramiento asociados a las competencias, de acuerdo con las intrucciones dadas por el área de Recursos Humanos.
+        \n\nCon base en lo anterior, usted podrá:
+        \n\n\t<b>1)</b> Identificar sus frentes de gestión y los requerimientos especificos de sus cliente (interno o externo), a partir de los cuales usted podrá Identificar, proponer y acordar con su jefe inmediato, los objetivos que desarrollará en el ciclo de gestión de desempeño del año en curso.
+        \n\n\t<b>2)</b> Evaluar las competencias definidas a nivel general para todos los cargos y en específico para su cargo, con base en lo cual usted junto con su jefe inmediato, podrán definir los planes de mejoramiento asociados a las competencias que usted deberá desarrollar dentro del ciclo de gestión de desempeño.
+        \n\n\n\n\n
+    </string>
+
+    <string name="instruction_2">
+        <b>Apreciado Colaborador.</b>
+        \n\nBienvenido(a) a la Fase 3 del Sistema de Gestión de Desempeño denominada SEGUIMIENTO DE OBJETIVOS.
+        \n\nEn esta fase usted se deberá reunir con su jefe inmediato, para realizar una REUNION DE SEGUIMIENTO FORMAL, a la fecha de corte definido por VENUS COLOMBIANA S.A, para determinar el grado de avance de los objetivos acordados en la Fase 2. Asi mismo revisarán las evidencias de los Planes de Mejoramiento definidos para las competencias sobre las cuales se haya decidido trabajar a lo largo del año.
+        \n\nPara desarrollar esta Fase, usted deberá tener la siguiente información disponible:
+        \n\n\t<b>1)</b> Cálculo de ejecución, a la fecha de corte, de cada uno de los objetivos definidos previamente en la Fase 2 - Fijación de Objetivos.
+        \n\n\t<b>2)</b> Evidencias del desarrollo de las competencias.
+        \n\nCon base en esta información, por favor haga lo siguiente en el formato definido:
+        \n\n\t<b>1)</b> Incluya el valor de la ejecución en la columna correspondiente en cada objetivo.
+        \n\n\t<b>2)</b> La Herramienta le calculará el cumplimiento para cada objetivo forma automática. De acuerdo con la formula correspondiente al tipo de indicador seleccionado.
+        \n\n\t<b>3)</b> En caso que el cumplimiento calculado, sea menor a 80% (semaforizado en rojo), por favor digite un plan de mejoramiento para el objetivo que corresponda.
+        \n\n\t<b>4)</b> Posteriormente revise los planes de mejoramiento definidos para las competencias que usted y su jefe inmediato hayan considerado desarrollar.
+        \n\n\t<b>5)</b> Guarde el formato en su PC y envíeselo a su jefe inmediato.
+        \n\n\t<b>6)</b> Reúnase y revise con su jefe inmediato, la información aquí consignada, para recibir retroalimentación sobre los resultados finales obtenidos.
+        \n\n\t<b>7)</b> Por favor imprima y fírme el formato, hagalo firmar de su jefe y envíelo al area de Recursos Humanos.
+        \n\n\n\n\n
+    </string>
+
+    <string name="instruction_3">
+        <b>Apreciado Colaborador.</b>
+        \n\nBienvenido(a) a la Fase 4 del Sistema de Gestión de Desempeño denominada EVALUACION FINAL DE OBJETIVOS.
+        \n\nEn esta fase usted se deberá reunir con su jefe inmediato, para realizar una la EVALUACION FORMAL DE GESTION DE DESEMPEÑO, CORRESPONDIENTE AL AÑO 2011, en la cual se debe establecer el resultado final de ejecución de los objetivos acordados en la Fase 2. Asi mismo revisarán las evidencias faltantes de los Planes de Mejoramiento definidos para las competencias sobre las cuales se haya decidido trabajar a lo largo del año.
+        \n\nPara desarrollar esta Fase, usted deberá tener la siguiente información disponible:
+        \n\n\t<b>1)</b> Calculo de ejecución al cierre de Dic 31, para cada uno de los objetivos definidos previamente en la Fase 2 - Fijación de Objetivos.
+        \n\n\t<b>2)</b> Evidencias del desarrollo de las competencias.
+        \n\nCon base en esta información, por favor haga lo siguiente en el formato definido:
+        \n\n\t<b>1)</b> Incluya el valor de la ejecución en la columna correspondiente en cada objetivo.
+        \n\n\t<b>2)</b> La Herramienta le calculará el cumplimiento para cada objetivo forma automática. De acuerdo con la formula correspondiente al tipo de indicador seleccionado.
+        \n\n\t<b>3)</b> Para cumplimientos por debajo del 80% (semaforizado en rojo), por favor revise las causas por las cuales no se logró el objetivo.
+        \n\n\t<b>4)</b> Posteriormente revise los planes de mejoramiento definidos para las competencias que usted y su jefe inmediato hayan considerado desarrollar.
+        \n\n\t<b>5)</b> Diligencie la información correspondiente a necesidades de formación que le permitan el logro de sus objetivos o su desarrollo.
+        \n\n\t<b>6)</b> Guarde el formato en su PC y envíeselo a su jefe inmediato.
+        \n\n\t<b>7)</b> Reúnase y revise con su jefe inmediato, la información aquí consignada, para recibir retroalimentación sobre los resultados finales obtenidos.
+        \n\n\t<b>8)</b> Por favor imprima y fírme el formato, hagalo firmar de su jefe y envíelo al area de Recursos Humanos.
+        \n\n\n\n\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
+

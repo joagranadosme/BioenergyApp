@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.procesosyoperaciones.bioenergy.GeneralInstructions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.bluejamesbond.text.DocumentView xmlns:ext="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/instruccionesDocumentView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dp"
+            ext:documentView_textAlignment="justified"
+            ext:documentView_textColor="@android:color/black"
+            ext:documentView_textFormat="formatted"
+            ext:documentView_textSize="16dp"
+            ext:documentView_textTypefacePath="font/Calibri.ttf"
+            ext:documentView_wordSpacingMultiplier="5.0" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/paso1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="unoClick"
+            android:text="Paso 1"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/paso2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="dosClick"
+            android:text="Paso 2"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/paso3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="tresClick"
+            android:text="Paso 3"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/paso4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_shape"
+            android:onClick="cuatroClick"
+            android:text="Paso 4"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+</LinearLayout>

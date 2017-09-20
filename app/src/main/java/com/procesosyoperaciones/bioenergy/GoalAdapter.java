@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import com.procesosyoperaciones.bioenergy.data_objects.Goal;
+
 import java.util.List;
 
 /**
@@ -35,9 +37,9 @@ public class GoalAdapter extends ArrayAdapter<Goal> {
 
         Goal goal = getItem(position);
 
-        holder.perspective.setText(goal.getDescription());
+        holder.perspective.setText(goal.getPerspective());
         holder.strategic.setText(goal.getGeneral());
-        holder.weight.setText(goal.getLocalWeight() + "%");
+        holder.weight.setText(goal.getWeight() + "%");
 
         return convertView;
     }

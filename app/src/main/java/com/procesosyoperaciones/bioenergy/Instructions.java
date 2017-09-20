@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.bluejamesbond.text.DocumentView;
@@ -33,18 +34,27 @@ public class Instructions extends AppCompatActivity {
         DocumentView content = (DocumentView) findViewById(R.id.contentDocumentView);
         getSupportActionBar().setTitle(titles[id]);
 
+        Button corporative = (Button) findViewById(R.id.corporativeButton);
+        Button personal = (Button) findViewById(R.id.personalButton);
+        Button next = (Button) findViewById(R.id.nextButton);
+
         switch (id) {
             case 0:
                 content.setText(getResources().getText(R.string.instruction_0));
+                corporative.setVisibility(View.GONE);
+                personal.setVisibility(View.GONE);
                 break;
             case 1:
                 content.setText(getResources().getText(R.string.instruction_1));
+                next.setVisibility(View.GONE);
                 break;
             case 2:
                 content.setText(getResources().getText(R.string.instruction_2));
+                next.setVisibility(View.GONE);
                 break;
             case 3:
                 content.setText(getResources().getText(R.string.instruction_3));
+                next.setVisibility(View.GONE);
                 break;
             default:
                 break;
@@ -60,7 +70,6 @@ public class Instructions extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        //Item selected in menu.
         switch (item.getItemId()){
             case R.id.back:
                 finish();
@@ -68,6 +77,23 @@ public class Instructions extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    public void corporativeClick(View view){
+        intent = new Intent(view.getContext(), GoalActivity.class);
+        intent.putExtra("type", 0);
+        startActivityForResult(intent, CREATE_GOAL);
+    }
+
+    public void personalClick(View view){
+        intent = new Intent(view.getContext(), GoalActivity.class);
+        intent.putExtra("type", 1);
+        startActivityForResult(intent, CREATE_GOAL);
+    }
+
+    public void nextClick(View view){
+        intent = new Intent(view.getContext(), BossActivity.class);
+        startActivityForResult(intent, SELECT_BOSS);
     }
 
     public void sendClick(View view){

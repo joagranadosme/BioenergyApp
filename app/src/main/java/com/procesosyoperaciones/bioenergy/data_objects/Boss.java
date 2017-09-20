@@ -1,4 +1,4 @@
-package com.procesosyoperaciones.bioenergy;
+package com.procesosyoperaciones.bioenergy.data_objects;
 
 import java.io.Serializable;
 import java.util.UUID;

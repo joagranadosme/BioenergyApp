@@ -15,11 +15,14 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.procesosyoperaciones.bioenergy.data_objects.Goal;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class GoalFragment extends Fragment {
 
+    private static int type;
     private Goal current;
     private ListView goalList;
     private TextView weightTextView;
@@ -29,8 +32,9 @@ public class GoalFragment extends Fragment {
 
     public GoalFragment() {}
 
-    public static GoalFragment newInstance(){
+    public static GoalFragment newInstance(int typeO){
         GoalFragment fragment = new GoalFragment();
+        type = typeO;
         return fragment;
     }
 
@@ -56,6 +60,7 @@ public class GoalFragment extends Fragment {
                 current = goalAdapter.getItem(position);
                 Intent intent = new Intent(getActivity(), FormActivity.class);
                 intent.putExtra("goal", current);
+                intent.putExtra("type", type);
                 startActivityForResult(intent, GOAL_RESULT);
             }
         });
@@ -77,7 +82,10 @@ public class GoalFragment extends Fragment {
     }
 
     public void addClick(){
-        goalAdapter.add(new Goal());
+        if(type == 0)
+            goalAdapter.add(new Goal(0));
+        if(type == 1)
+            goalAdapter.add(new Goal("Personal", 0));
         goalAdapter.notifyDataSetChanged();
     }
 
@@ -85,7 +93,7 @@ public class GoalFragment extends Fragment {
         if(goalAdapter != null) {
             int total = 0;
             for (int i = 0; i < goalAdapter.getCount(); i++)
-                total += goalAdapter.getItem(i).getLocalWeight();
+                total += goalAdapter.getItem(i).getWeight();
             return total;
         }
         return 0;

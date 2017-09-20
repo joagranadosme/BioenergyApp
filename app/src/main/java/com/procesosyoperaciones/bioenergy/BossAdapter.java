@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.procesosyoperaciones.bioenergy.data_objects.Boss;
 
 import java.util.List;
 

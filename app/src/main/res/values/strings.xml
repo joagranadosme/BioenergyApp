@@ -4,8 +4,8 @@
     <string name="login">Iniciar Sesión</string>
     <string name="username">Documento</string>
     <string name="password">Contraseña</string>
-    <string name="evaluate">Ser\nEvaluado</string>
-    <string name="evaluator">Ser\nEvaluador</string>
+    <string name="evaluate">Ser evaluado</string>
+    <string name="evaluator">Ser evaluador</string>
 
     <string name="restrictions">
         \n\n<b>1)</b> La Evaluación de desempeño, debe ser realizada de forma individual, por todos los trabajadores contratados directamente por Bioenergy S.A.S y Bioenergy Zona Franca S.A.S

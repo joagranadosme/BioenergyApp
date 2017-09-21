@@ -26,8 +26,8 @@ import java.net.URL;
 
 public class BossActivity extends AppCompatActivity {
 
-    private BossFragment bossFragment;
     private String idUser;
+    private BossFragment bossFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

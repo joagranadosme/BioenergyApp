@@ -159,6 +159,8 @@ public class FormActivity extends AppCompatActivity {
         goalsTextView = new TextView[n];
         goalsEditText = new EditText[n];
 
+        //TODO: Verify erro loading 2 period.
+
         for(int i=0; i<n; i++) {
             goalLinearLayout[i] = new LinearLayout(this);
             goalLinearLayout[i].setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.MATCH_PARENT));
@@ -183,8 +185,6 @@ public class FormActivity extends AppCompatActivity {
     }
 
     public void sendClick(View view){
-
-        boolean flag = true;
 
         String perspective = perspectiveSpinner.getSelectedItem().toString();
         goal.setPerspective(perspective);
